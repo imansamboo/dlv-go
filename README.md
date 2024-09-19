@@ -134,6 +134,25 @@ Once you have attached the client, you can use the following commands in the Del
    quit
    ```
 
+# My Go Application - Debugging through Docker  
+
+This guide will help you set up your Go application for debugging inside a Docker container using `Dockerfile.debug`.
+
+## Prerequisites
+
+- Docker installed on your system
+- Go installed on your local machine
+- VS Code (for remote debugging)
+
+## Docker Debug Setup
+
+### Build the Docker Image
+
+To build the Docker image using the `Dockerfile.debug`, run the following command:
+
+```bash
+docker build -t my-go-app -f Dockerfile.debug .
+
 ## License
 
 This project is licensed under the MIT License.
